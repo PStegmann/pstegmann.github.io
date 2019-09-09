@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>石 PST</title>
+  <meta name="description" content="Publications of P. Stegmann">
+  <meta name="author" content="Patrick Stegmann">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="backdrop" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/hyperbolic-canvas.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body class="home">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <nav>
+        <div class="nav-button three columns">
+          <a href="index.html">Home</a>
+        </div>
+        <div class="nav-button three columns">
+          <a href="about.html">About</a>
+        </div>
+        <div class="nav-button three columns">
+          <a href="publications.html">Publications</a>
+        </div>
+        <div class="nav-button three columns">
+          <a href="simulation.html">Simulations</a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="row">
+      <!-- <div class="content"> -->
+      <div class="blockquote eight columns offset-by-two">
+        <h1>Construction</h1>
+        <p>A selection of a few devices and designs I have worked on over the years, 
+        ranging from R&D prototypes to purely decorative.</p>
+
+        <h2>Generative Design</h2>
+        <p>
+          The figure below shows an STL file of a figure-8 immersion of a Klein bottle, ready for 3D printing. The file was generated using a Python script.
+        </p>
+        <img src="images/klein.png" alt="Klein Bottle" width="100%" height="100%">
+      </div>
+    </div>
+  </div>
+
+<div id="hyperbolic-canvas" class="background-canvas"></div>
+
+  <!-- Scripts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="application/javascript" src="lib/Angle.js"></script>
+  <script type="application/javascript" src="lib/Point.js"></script>
+  <script type="application/javascript" src="lib/Line.js"></script>
+  <script type="application/javascript" src="lib/Circle.js"></script>
+  <script type="application/javascript" src="lib/Polygon.js"></script>
+  <script type="application/javascript" src="lib/Canvas.js"></script>
+  <script type="application/javascript" src="lib/HyperbolicCanvas.js"></script>
+
+  <script type="application/javascript" src="scripts/hexagons.js"></script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
